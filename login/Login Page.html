@@ -23,19 +23,22 @@
             </header>
                   
             <main class="login-input">
-                  <div>
-                    <input class="input" type="email" placeholder="Email">
-                  </div>
-                  <div>
-                    <input class="input" type="password" placeholder="Password">
-                  </div>
-                  <div class="showpassword-input">
-                      <input type="checkbox">
-                      <div>Show Password</div>
-                  </div>
-                  <div class="signin">
-                      <button class="signin-button">Sign in</button>
-                  </div>
+                  <form onsubmit="return login()" action="message.html">
+                    <div>
+                    <input id="inputEmail" type="email" placeholder="Email">
+                    </div>
+                    <div>
+                      <input id="inputPassword" type="password" placeholder="Password">
+                    </div>
+                    <div class="showpassword-input">
+                        <input type="checkbox">
+                        <div>Show Password</div>
+                    </div>
+                    <div class="signin">
+                        <button type="submit" class="signin-button">Sign in</button>
+                    </div>
+                    
+                  </form>
             </main>
 
             <footer class="forgot-password-signup">
@@ -46,6 +49,7 @@
                     <p class="paragraph">Don't have an account ? <span id="sign-up"><a href="signup.html">Sign up</a></span></p>
                   </div>
             </footer>
-         </div>   
+         </div> 
+         <script src="login.js"></script>  
     </body>
 </html>

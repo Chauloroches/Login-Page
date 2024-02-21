@@ -31,7 +31,7 @@ body {
   justify-content: center;
   align-items: center;
   row-gap: 15px;
-  background-color: lightblue;
+  background-color: grey;
   
 }
 
@@ -46,12 +46,18 @@ body {
 }
 
 
-#input {
-  height: 20px;
-  border-bottom-width: 3px;
-  border-radius: 1px;
-  margin-top: 4px;
-  margin-bottom: 0px;
+#inputFirstName,
+#inputLastName,
+#inputEmail,
+#inputPhone,
+#inputPassword,
+#inputConfirmPassword {
+  border-width: 0;
+  border-color: white;
+  border-style: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 3px;
 }
  
  .signup-button {

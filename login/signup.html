@@ -20,29 +20,31 @@
       </header>
 
       <main class="main">
-        <div>
-          <input id="input" type="text" placeholder="First Name">
-        </div>
-        <div>
-          <input id="input" type="text" placeholder="Last Name">
-        </div>
-        <div>
-          <input id="input" type="number" placeholder="Phone">
-        </div>
-        <div>
-          <input id="input" type="email" placeholder="Email">
-        </div>
-        <div>
-          <input id="input" type="password" placeholder="Password">
-        </div>
-        <div>
-          <inpu id="input"type="password" placeholder="Confirm Password">
-        </div>
+        <form onsubmit="return signUp()" action="Login Page.html">
+          <div>
+            <input id="inputFirstName" type="text" placeholder="First Name">
+          </div><br>
+          <div>
+            <input id="inputLastName" type="text" placeholder="Last Name">
+          </div><br>
+          <div>
+            <input id="inputPhone" type="number" placeholder="Phone">
+          </div><br>
+          <div>
+            <input id="inputEmail" type="email" placeholder="Email">
+          </div><br>
+          <div>
+            <input id="inputPassword" type="password" placeholder="Password">
+          </div><br>
+          <div>
+            <input id="inputConfirmPassword"type="password" placeholder="Confirm Password">
+          </div>
+          <br>
+          <button type="submit" class="signup-button">Sign up</button>
+      </form>
       </main>
-      
-      <footer class="footer">
-        <button class="signup-button"><a href="Login Page.html">Sign up</a></button>
-      </footer>
+        
     </div>
+    <script src="signup.js"></script>
   </body>
 </html>
